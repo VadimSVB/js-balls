@@ -10,13 +10,14 @@ body{
 	padding: 0;
 	margin: 0;
 	
+
+	background-image:url(/img/mmn.jpg), linear-gradient(to bottom, #feda00 ,#fed501 60%, #ffc300, #fed501);
+
+	background-repeat: no-repeat, repeat-y;
+	background-size: contain;
+	background-position: center 100px;
 }
 canvas{
-
-	color:dodgerblue
 	padding: 0;
-	margin: 0 auto;
-	
-	background-color: #ffd800;
-	
+	margin: 0 auto;	
 }

@@ -1,8 +1,4 @@
-if (!window.requestAnimationFrame) {
-    window.requestAnimationFrame = (webkitRequestAnimationFrame || mozRequestAnimationFrame || function(callback) {
-        return window.setTimeout(callback, 100 / 60);
-    })
-}
+
 window.addEventListener('load', function (event) {
 	respondCanvas();
 	initCanvas();
@@ -31,10 +27,10 @@ function initCanvas() {
 		canvasWidth = ctx.canvas.width,
 		canvasHeight = ctx.canvas.height,
 		//высота ячейки с шариками
-		container_height = 100,
+		container_height = 100;
 		//картинка
-			pic = new Image();
-			pic.src = 'img/m&m.jpg';
+//			pic = new Image();
+//			pic.src = 'img/m&m.jpg';
 		//переменные
 		var mouseX = 0,
 				mouseY = 0,
@@ -345,7 +341,7 @@ if(container_balls.length == 0 ){
 		var animate = requestAnimationFrame(draw);
 		
 		ctx.clearRect(0, 0, canvasWidth, canvasHeight);
-		ctx.drawImage(pic, 0,container_height, canvasWidth,canvasHeight );
+//		ctx.drawImage(pic, 0,container_height, canvasWidth,canvasHeight );
 		balls.forEach(function (b) {
 			ctx.beginPath();
 			//двигаем шарик мышкой
