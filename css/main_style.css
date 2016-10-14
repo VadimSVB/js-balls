@@ -1,6 +1,6 @@
 body{
 	box-sizing: border-box;
-/*	background-color: #111;*/
+
 	display: block;
 	position: relative;
 	
@@ -11,7 +11,7 @@ body{
 	margin: 0;
 	
 
-	background-image:url(/img/mmn.jpg), linear-gradient(to bottom, #feda00 ,#fed501 60%, #ffc300, #fed501);
+	background-image:url(../img/mmn.jpg), linear-gradient(to bottom, #feda00 ,#fed501 60%, #ffc300, #fed501);
 
 	background-repeat: no-repeat, repeat-y;
 	background-size: contain;
